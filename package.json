@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-oauth/google": "^0.11.1",
     "@sanity/client": "^6.4.12",
+    "hamburgers": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
