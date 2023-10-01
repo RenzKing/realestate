@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div>
         <nav className="" id="navbar">
-          <div className="bg-black px-20 py-1 " id="navbar-container">
+          <div className="bg-gray-300 px-20 py-1 " id="navbar-container">
             {/* // */}
             <div
               className="relative flex items-center justify-between"
