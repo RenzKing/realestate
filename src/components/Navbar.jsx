@@ -24,6 +24,9 @@ const Navbar = () => {
 
               {/*  */}
               <ul className="flex gap-12 text-xl text-white">
+                <Link to="/home">
+                  <li className=" hover:text-sky-700">Home</li>
+                </Link>
                 <Link to="/about">
                   <li className=" hover:text-sky-700">About</li>
                 </Link>
