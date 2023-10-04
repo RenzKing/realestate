@@ -6,7 +6,7 @@ import Services from './container/Services';
 import Contact from './container/Contact';
 import Gallery from './container/Gallery';
 import Navbar from './components/Navbar';
-import HeroTextbox from './components/HeroTextbox';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Home />
     </>
   );
 }

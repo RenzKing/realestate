@@ -5,12 +5,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-
       <div className="" id="section-hero">
         <div className="w-full bg-gray-200 " id="hero-container">
           <HeroTextbox />
           <img
-            src="public\img\buildings.jpg"
+            src="/img/buildings.jpg"
             className="h-screen w-full object-cover"
             alt="hero"
             id="hero-image"
