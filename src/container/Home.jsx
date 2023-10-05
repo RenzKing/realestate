@@ -10,7 +10,7 @@ const Home = () => {
           <HeroTextbox />
           <img
             src="/img/buildings.jpg"
-            className="h-screen w-full object-cover"
+            className="h-screen w-full object-cover opacity-30"
             alt="hero"
             id="hero-image"
           />

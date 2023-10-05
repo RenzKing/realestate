@@ -18,16 +18,13 @@ const Navbar = () => {
 
               <Link to="/home">
                 <img
-                  src="public\img\Renz gayacao.png"
+                  src="/img/Renz gayacao.png"
                   className=" h-20 w-20 cursor-pointer p-2"
                   alt="Renz King Gayacao"
                   id="navbar-logo"
                 />
-                <i className="fab fa-typo3" />
               </Link>
-              <div className="" onClick={handleClick} id="menu-icon">
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-              </div>
+
               {/*  */}
               <ul className="flex gap-12 text-xl text-white">
                 <Link to="/home">
