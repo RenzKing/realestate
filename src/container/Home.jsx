@@ -12,7 +12,7 @@ const Home = () => {
         >
           <img
             src="/img/buildings.png"
-            className="min-h-screen w-full object-cover opacity-30"
+            className="brightness-50 min-h-screen w-full object-cover"
             alt="hero"
             id="hero-image"
           />

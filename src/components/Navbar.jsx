@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div>
         <nav className="" id="navbar">
-          <div className="py-0.2 bg-gray-300 px-20 " id="navbar-container">
+          <div className="py-0.2 bg-gray-500 px-20 " id="navbar-container">
             {/* // */}
             <div
               className="relative flex items-center justify-between"
@@ -26,21 +26,29 @@ const Navbar = () => {
               </Link>
 
               {/*  */}
-              <ul className="flex gap-12 text-xl text-white">
+              <ul className="flex gap-12 text-xl text-zinc-300">
                 <Link to="/home">
-                  <li className=" hover:text-sky-700">Home</li>
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                    Home
+                  </li>
                 </Link>
                 <Link to="/about">
-                  <li className=" hover:text-sky-700">About</li>
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                    About
+                  </li>
                 </Link>
                 <Link to="/gallery">
-                  <li className="hover:text-sky-700">Gallery</li>
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                    Gallery
+                  </li>
                 </Link>
                 <Link to="/services">
-                  <li className="hover:text-sky-700">Services</li>
+                  <li className="font-large drop-shadow-2xl hover:text-lime-500">
+                    Services
+                  </li>
                 </Link>
                 <Link to="/contact">
-                  <li className="hover:text-sky-700">Contact</li>
+                  <li className="hover:text-lime-500">Contact</li>
                 </Link>
               </ul>
               {/*  */}
