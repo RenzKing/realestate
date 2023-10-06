@@ -6,14 +6,17 @@ const Home = () => {
     <>
       <Navbar />
       <div className="" id="section-hero">
-        <div className="w-full bg-gray-200 " id="hero-container">
-          <HeroTextbox />
+        <div
+          className="flex w-full flex-col items-center justify-center bg-gray-200"
+          id="hero-container"
+        >
           <img
-            src="/img/buildings.jpg"
-            className="h-screen w-full object-cover opacity-30"
+            src="/img/buildings.png"
+            className="min-h-screen w-full object-cover opacity-30"
             alt="hero"
             id="hero-image"
           />
+          <HeroTextbox />
         </div>
       </div>
     </>
