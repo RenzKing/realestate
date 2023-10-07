@@ -28,27 +28,27 @@ const Navbar = () => {
               {/*  */}
               <ul className="flex gap-12 text-xl text-zinc-300">
                 <Link to="/home">
-                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-600">
                     Home
                   </li>
                 </Link>
                 <Link to="/about">
-                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-600">
                     About
                   </li>
                 </Link>
                 <Link to="/gallery">
-                  <li className=" font-large drop-shadow-2xl hover:text-lime-500">
+                  <li className=" font-large drop-shadow-2xl hover:text-lime-600">
                     Gallery
                   </li>
                 </Link>
                 <Link to="/services">
-                  <li className="font-large drop-shadow-2xl hover:text-lime-500">
+                  <li className="font-large drop-shadow-2xl hover:text-lime-600">
                     Services
                   </li>
                 </Link>
                 <Link to="/contact">
-                  <li className="hover:text-lime-500">Contact</li>
+                  <li className="hover:text-lime-600">Contact</li>
                 </Link>
               </ul>
               {/*  */}

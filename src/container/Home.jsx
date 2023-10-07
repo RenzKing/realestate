@@ -1,3 +1,4 @@
+import AutoCarousel from '../components/AutoCarousel';
 import HeroTextbox from '../components/HeroTextbox';
 import Navbar from '../components/Navbar';
 
@@ -12,11 +13,18 @@ const Home = () => {
         >
           <img
             src="/img/buildings.png"
-            className="brightness-50 min-h-screen w-full object-cover"
+            className="min-h-screen w-full object-cover brightness-50"
             alt="hero"
             id="hero-image"
           />
           <HeroTextbox />
+        </div>
+        <AutoCarousel />
+      </div>
+
+      <div className="" id="section-developer-logo">
+        <div className="w-full bg-green-700 p-24" id="developer-container">
+          <h1>Developers</h1>
         </div>
       </div>
     </>
