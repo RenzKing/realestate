@@ -19,12 +19,11 @@ const Home = () => {
           />
           <HeroTextbox />
         </div>
-        <AutoCarousel />
       </div>
 
       <div className="" id="section-developer-logo">
         <div className="w-full bg-green-700 p-24" id="developer-container">
-          <h1>Developers</h1>
+          <AutoCarousel />
         </div>
       </div>
     </>
