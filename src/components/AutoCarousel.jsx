@@ -17,40 +17,45 @@ const AutoCarousel = () => {
     <div className="relative overflow-hidden " id="carousel-container">
       <Slider {...settings}>
         <div
-          className="duration-90 h-96 w-96 transition ease-in hover:ease-in"
+          className="duration-90 h-12 w-12 object-contain transition ease-in hover:ease-in"
           id="carousel-img"
         >
           <img src="/img/focaccia.jpg" alt="" />
         </div>
+
         <div
-          className="h-96 w-96 transition duration-300 ease-in hover:ease-in"
+          className="h-12 w-12 object-contain transition duration-300 ease-in hover:ease-in"
           id="carousel-img"
         >
           <img src="/img/funghi.jpg" alt="" />
         </div>
+
         <div
-          className="h-96 w-96 transition duration-300 ease-in hover:ease-in"
+          className="h-12 w-12 object-contain transition duration-300 ease-in hover:ease-in"
           id="carousel-img"
         >
           <img src="/img/margherita.jpg" alt="" />
-          <div
-            className="h-96 w-96 transition duration-300 ease-in hover:ease-in"
-            id="carousel-img"
-          >
-            <img src="/img/prosciutto.jpg" alt="" />
-          </div>
-          <div
-            className="h-96 w-96 transition duration-300 ease-in hover:ease-in"
-            id="carousel-img"
-          >
-            <img src="/img/salamino.jpg" alt="" />
-          </div>
-          <div
-            className="h-96 w-96 transition duration-300 ease-in hover:ease-in"
-            id="carousel-img"
-          >
-            <img src="/img/spinaci.jpg" alt="" />
-          </div>
+        </div>
+
+        <div
+          className="h-12 w-12 object-contain transition duration-300 ease-in hover:ease-in"
+          id="carousel-img"
+        >
+          <img src="/img/prosciutto.jpg" alt="" />
+        </div>
+
+        <div
+          className="h-12 w-12 object-contain transition duration-300 ease-in hover:ease-in"
+          id="carousel-img"
+        >
+          <img src="/img/salamino.jpg" alt="" />
+        </div>
+
+        <div
+          className="h-12 w-12 object-contain transition duration-300 ease-in hover:ease-in"
+          id="carousel-img"
+        >
+          <img src="/img/spinaci.jpg" alt="" />
         </div>
       </Slider>
     </div>
