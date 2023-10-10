@@ -26,6 +26,7 @@ const Home = () => {
       <DeveloperLogo />
       <SectionTitle />
       <FeaturedProperties />
+      <SectionTitle />
     </>
   );
 };
