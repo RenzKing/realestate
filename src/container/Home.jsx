@@ -1,8 +1,7 @@
-import AutoCarousel from '../components/AutoCarousel';
 import HeroTextbox from '../components/HeroTextbox';
 import Navbar from '../components/Navbar';
 import SectionTitle from '../components/SectionTitle';
-import DeveloperLogo from './sections/DeveloperLogo';
+
 import FeaturedProperties from './sections/FeaturedProperties';
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
           <HeroTextbox />
         </div>
       </div>
-      <DeveloperLogo />
+
       <SectionTitle />
       <FeaturedProperties />
       <SectionTitle />

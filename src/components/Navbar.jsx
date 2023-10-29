@@ -16,7 +16,7 @@ const Navbar = () => {
             >
               {/*  */}
 
-              <Link to="/home">
+              <Link to="/">
                 <img
                   src="/img/Renz gayacao.png"
                   className=" h-20 w-20 cursor-pointer p-2"
@@ -27,7 +27,7 @@ const Navbar = () => {
 
               {/*  */}
               <ul className="flex gap-12 text-xl text-zinc-500">
-                <Link to="/home">
+                <Link to="/">
                   <li className=" font-large drop-shadow-2xl hover:text-lime-600">
                     Home
                   </li>
