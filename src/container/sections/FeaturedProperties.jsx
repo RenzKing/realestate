@@ -1,6 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const propertyData = [
+  {
+    name: 'Propety1',
+    location: 'Location1',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety2',
+    location: 'Location2',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety3',
+    location: 'Location3',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety4',
+    location: 'Location4',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety5',
+    location: 'Location5',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety6',
+    location: 'Location6',
+    unitType: '1bedroom',
+    price: 100,
+  },
+];
+
 const FeaturedProperties = () => {
   return (
     <>
