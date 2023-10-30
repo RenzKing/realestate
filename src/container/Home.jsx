@@ -1,6 +1,6 @@
 import HeroTextbox from '../components/HeroTextbox';
 import Navbar from '../components/Navbar';
-import SectionTitle from '../components/SectionTitle';
+
 import FeaturedProperties from './sections/FeaturedProperties';
 import Footer from '../components/Footer';
 
@@ -22,9 +22,9 @@ const Home = () => {
           <HeroTextbox />
         </div>
       </div>
-      <SectionTitle />
+
       <FeaturedProperties />
-      <SectionTitle />
+
       <Footer />
     </>
   );

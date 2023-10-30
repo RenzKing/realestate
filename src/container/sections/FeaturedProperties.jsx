@@ -95,6 +95,13 @@ const FeaturedProperties = () => {
 
   return (
     <>
+      <div className="py-12 text-center  ">
+        <h2 className="text-2xl tracking-tight">FEATURED PROPERTIES</h2>
+        <p className="">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum,
+          accusantium!
+        </p>
+      </div>
       <div className=" m-auto  px-12 py-6" id="featured-properties-container">
         <ul className=" flex flex-wrap justify-center gap-4 ">
           {properties.map((property) => (
@@ -112,7 +119,7 @@ function Property({ propertyList }) {
       <div>
         <li className="w-52 ">
           <img
-            className="rounded-lg py-1 transition-transform duration-300 ease-in-out hover:scale-110"
+            className="cursor-pointer rounded-lg py-1 transition-transform duration-300 ease-in-out hover:scale-110"
             src={propertyList.img}
             alt={propertyList.name}
           />
