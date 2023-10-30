@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const propertyData = [
+const propertiesData = [
   {
     name: 'Propety1',
     img: '/img/property1.jpg',
@@ -44,77 +44,86 @@ const propertyData = [
     unitType: '1bedroom',
     price: 100,
   },
+  {
+    name: 'Propety7',
+    img: '/img/property1.jpg',
+    location: 'Location7',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety8',
+    img: '/img/property2.jpg',
+    location: 'Location8',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety9',
+    img: '/img/property3.jpg',
+    location: 'Location9',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety10',
+    img: '/img/property1.jpg',
+    location: 'Location10',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety11',
+    img: '/img/property2.jpg',
+    location: 'Location11',
+    unitType: '1bedroom',
+    price: 100,
+  },
+  {
+    name: 'Propety12',
+    img: '/img/property3.jpg',
+    location: 'Location12',
+    unitType: '1bedroom',
+    price: 100,
+  },
 ];
 
+console.log(propertiesData);
+
 const FeaturedProperties = () => {
+  const properties = propertiesData;
+
   return (
     <>
-      <div
-        className="m-auto grid grid-cols-3 gap-4 px-12 py-6"
-        id="featured-properties-container"
-      >
-        <div className="   object-fill " id="property-container">
-          <Link to="/">
-            <img className="" src="/img/property1.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
-        <div className="object-fill" id="property-container">
-          <Link to="/">
-            <img src="/img/property2.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
-        <div className="object-fill" id="property-container">
-          <Link to="/">
-            <img src="/img/property3.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
-      </div>
-      <div
-        className="m-auto grid grid-cols-3 gap-4 px-12 pb-6 "
-        id="featured-properties-container"
-      >
-        <div className="   object-fill " id="property-container">
-          <Link to="/">
-            <img className="" src="/img/property1.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
-        <div className="object-fill" id="property-container">
-          <Link to="/">
-            <img src="/img/property2.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
-        <div className="object-fill" id="property-container">
-          <Link to="/">
-            <img src="/img/property3.jpg" />
-          </Link>
-          <p>Property name</p>
-          <p>Location</p>
-          <p>Unit Type</p>
-          <p>Price</p>
-        </div>
+      <div className=" m-auto  px-12 py-6" id="featured-properties-container">
+        <ul className=" flex flex-wrap justify-center gap-4 ">
+          {properties.map((property) => (
+            <Property propertyList={property} key={property.name} />
+          ))}
+        </ul>
       </div>
     </>
   );
 };
+
+function Property({ propertyList }) {
+  return (
+    <>
+      <div>
+        <li className="w-52 ">
+          <img
+            className="rounded-lg py-1 transition-transform duration-300 ease-in-out hover:scale-110"
+            src={propertyList.img}
+            alt={propertyList.name}
+          />
+          <h3>{propertyList.name}</h3>
+          <p>{propertyList.location}</p>
+          <p>{propertyList.unitType}</p>
+          <p>{propertyList.price}</p>
+        </li>
+      </div>
+    </>
+  );
+}
 
 export default FeaturedProperties;

@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sectionTitles = [
-  {
-    title: 'Featured Properties',
-    description: 'description about featured proeprties',
-  },
-  {
-    title: 'Properties for sale',
-    description: 'description about properties for sale',
-  },
-  {
-    title: 'Properties for lease',
-    description: 'description about properties for lease',
-  },
-];
-
-const sectionTitle = () => {
+const SectionTitle = () => {
   return (
     <>
       <div
@@ -28,4 +13,4 @@ const sectionTitle = () => {
   );
 };
 
-export default sectionTitle;
+export default SectionTitle;
